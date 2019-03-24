@@ -521,6 +521,7 @@ RCT_NOT_IMPLEMENTED(- (instancetype)init)
   }
 
   _inputStream.delegate = self;
+  _inputStream.voipEnabled = true;
   _outputStream.delegate = self;
 }
 
